@@ -18,8 +18,6 @@ def bfs(grid,visited,distance,start,end):
                 q.append((a+k,b+l))
                 visited[a+k][b+l]=1
                 distance[a+k][b+l]=1+distance[a][b]
-
-
 if __name__ =='__main__':
     grid = [['','B','',''],['','','',''],['','A','',''],['','','',''],['','','','']]
     row = len(grid)
